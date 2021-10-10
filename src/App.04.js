@@ -1,4 +1,4 @@
-import { Clock } from './04-LifeCycle';
+import { Clock } from './04-LifeCycle/LifeCycle';
 
 function App() {
   return (

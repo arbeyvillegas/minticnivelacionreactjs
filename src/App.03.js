@@ -1,4 +1,4 @@
-import { Comment } from './03-Components';
+import { Comment } from './03-Components/Components';
 
 function App() {
   const comment = {
