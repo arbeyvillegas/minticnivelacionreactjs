@@ -9,13 +9,15 @@ export class NameForm extends React.Component {
     this.handleSubmit = this.handleSubmit.bind(this);
   }
 
-  handleChange(event) {
-    this.setState({name: event.target.value});
+  handleChange(e) {
+    this.setState({name: e.target.value});
   }
 
   handleSubmit(event) {
     alert('Un nombre fue enviado: ' + this.state.name);
     event.preventDefault();
+    // fetch
+    // axios
   }
 
   render() {
